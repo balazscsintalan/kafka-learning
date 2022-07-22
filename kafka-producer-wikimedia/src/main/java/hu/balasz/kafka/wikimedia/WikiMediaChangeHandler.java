@@ -31,7 +31,7 @@ public class WikiMediaChangeHandler implements EventHandler {
 
     @Override
     public void onMessage(String event, MessageEvent messageEvent) {
-        logger.debug(messageEvent.getData());
+        logger.info(messageEvent.getData());
         producer.send(new ProducerRecord<>(topic, messageEvent.getData()));
     }
 
