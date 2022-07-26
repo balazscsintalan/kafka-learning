@@ -31,7 +31,7 @@ public class OpenSearchConsumer {
     private static final Logger log = LoggerFactory.getLogger(OpenSearchConsumer.class.getSimpleName());
     private static final String WIKIMEDIA_INDEX = "wikimedia";
     private static final String TOPIC = "wikimedia.recentchange";
-    private static final String BOOSTRAP_SERVERS = "172.27.154.215:9092";
+    private static final String BOOSTRAP_SERVERS = "172.27.158.251:9092";
     private static final String GROUP_ID = "consumer-opensearch-demo";
 
     public static void main(String[] args) throws IOException {

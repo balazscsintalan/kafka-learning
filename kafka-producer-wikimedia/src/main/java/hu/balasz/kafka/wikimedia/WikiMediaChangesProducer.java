@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class WikiMediaChangesProducer {
 
-    public static final String BOOT_STRAP_SERVERS = "172.27.154.215:9092";
+    public static final String BOOT_STRAP_SERVERS = "172.27.158.251:9092";
     public static final String TOPIC = "wikimedia.recentchange";
     public static final String WIKIMEDIA_URL = "https://stream.wikimedia.org/v2/stream/recentchange";
 
