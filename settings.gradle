@@ -3,4 +3,6 @@ include 'kafka-producer-wikimedia'
 include 'kafka-consumer-opensearch'
 include 'kafka-streams'
 include 'kafka-favourite-color-stream'
+include 'kafka-random-transaction-producer'
+include 'kafka-transaction-streams'
 
